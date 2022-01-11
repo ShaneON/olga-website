@@ -1,6 +1,30 @@
 .footer {
-  z-index: 0;
+  display: flex;
+  align-items: center;
   height: 50px;
   background-color: #bab6ba;
   box-shadow: 0px 2px 5px 5px rgba(186,182,186,1);
+}
+
+.img-left {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.img-right {
+  width: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.button {
+  margin-right: 5px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: #60b4f0;
 }
