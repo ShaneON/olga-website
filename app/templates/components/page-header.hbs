@@ -1,10 +1,12 @@
-<div local-class=header>
-  <div local-class="header-content">
-    <img local-class="heading-img" src="images/olya-name.png">
-    <h2 local-class="sub-heading">
-      English Language Teacher and Translator
-    </h2>
-  </div>
+<div local-class="{{header}}">
+  {{#if (eq header "header")}}
+    <div local-class="header-content">
+      <img local-class="heading-img" src="images/olya-name.png">
+      <h2 local-class="sub-heading">
+        English Language Teacher and Translator
+      </h2>
+    </div>
+  {{/if}}
   <div local-class="nav-bar">
     {{#link-to 'home'
       class=(local-class "nav-item")

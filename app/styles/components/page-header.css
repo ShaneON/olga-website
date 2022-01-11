@@ -12,6 +12,16 @@
   box-shadow: 0px 4px 11px -4px rgba(0,0,0,0.75);
 }
 
+.sticky {
+  width: 100%;
+  position: fixed;
+  background-color: #ffcff4;
+  height: 50px;
+  padding: 0;
+  margin-bottom: 5px;
+  box-shadow: 0px 4px 11px -4px rgba(0,0,0,0.75);
+}
+
 .header-content {
   display: flex;
   align-items: center;
@@ -37,12 +47,13 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 100px;
+  width: 80px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
   color: #4a4047;
   letter-spacing: .8px;
+  margin-right: 5px;
 }
 
 .sub-heading {
@@ -50,4 +61,10 @@
   font-weight: 200;
   color: #4a4047;
   letter-spacing: .8px;
+  margin-bottom: 0;
+}
+
+.active {
+  background-color: #61505f;
+  color: #edd5ea;
 }
