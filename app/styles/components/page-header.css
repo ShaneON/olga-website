@@ -12,8 +12,37 @@
   box-shadow: 0px 4px 11px -4px rgba(0,0,0,0.75);
 }
 
-.heading-img {
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.heading-img {
+  margin-top: 10px;
+  width: 80%;
+}
+
+.nav-bar {
+  margin-right: auto;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 110px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4a4047;
+  letter-spacing: .8px;
 }
 
 .sub-heading {
