@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4a4047;
+  letter-spacing: .8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.item:hover {
+  background-color: #edbbec;
+  box-shadow: 0px -1px 5px #888888;
+}
+
+.active {
+  background-color: #61505f;
+  color: #edd5ea;
+  box-shadow: 0px -1px 5px #888888;
+}
+
+.active:hover {
+  background-color: #61505f;
+}

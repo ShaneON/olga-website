@@ -8,25 +8,17 @@
     </div>
   {{/if}}
   <div local-class="nav-bar">
-    {{#link-to 'home'
-      class=(local-class "nav-item")
-      activeClass=(local-class "active")}}
-      Home
-    {{/link-to}}
-    {{#link-to 'teaching'
-      class=(local-class "nav-item")
-      activeClass=(local-class "active")}}
-      Teaching
-    {{/link-to}}
-    {{#link-to 'translation'
-      class=(local-class "nav-item")
-      activeClass=(local-class "active")}}
-      Translation
-    {{/link-to}}
-    {{#link-to 'contact'
-      class=(local-class "nav-item")
-      activeClass=(local-class "active")}}
-      Contact
-    {{/link-to}}
+    {{nav-item
+      link="home"
+      name="Home"}}
+    {{nav-item
+      link="teaching"
+      name="Teaching"}}
+    {{nav-item
+      link="translation"
+      name="Translation"}}
+    {{nav-item
+      link="contact"
+      name="Contact"}}
   </div>
 </div>

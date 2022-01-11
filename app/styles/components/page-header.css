@@ -42,29 +42,10 @@
   height: 50px;
 }
 
-.nav-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 80px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 400;
-  color: #4a4047;
-  letter-spacing: .8px;
-  margin-right: 5px;
-}
-
 .sub-heading {
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 300;
   color: #4a4047;
   letter-spacing: .8px;
   margin-bottom: 0;
-}
-
-.active {
-  background-color: #61505f;
-  color: #edd5ea;
 }
