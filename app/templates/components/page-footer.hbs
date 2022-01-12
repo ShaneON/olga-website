@@ -2,8 +2,8 @@
   <div local-class="container">
     <h3 local-class="text"> {{t "languages"}} </h3>
     <div local-class="image-container">
-      <img local-class="img-left" src="images/gb.svg">
-      <img local-class="img-right" src="images/ru.svg">
+      <img local-class="img-left" onclick={{action buttonSelected "left"}} src="images/gb.svg">
+      <img local-class="img-right" onclick={{action buttonSelected "right"}} src="images/ru.svg">
     </div>
   </div>
 </div>
