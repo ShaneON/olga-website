@@ -12,7 +12,7 @@ export default Route.extend({
   _checkScroll(controller) {
     window.addEventListener('scroll', (() => {
       let scrollPosition = Math.round(window.scrollY);
-      if (scrollPosition > 90){
+      if (scrollPosition > 123){
         controller.set('header', "sticky");
       }
       else {
