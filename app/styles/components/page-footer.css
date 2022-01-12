@@ -2,16 +2,24 @@
   display: flex;
   align-items: center;
   height: 50px;
-  background-color: #bab6ba;
+  background-color: #61505f;
   box-shadow: 0px 2px 5px 5px rgba(186,182,186,1);
 }
 
 .img-left {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 2px;
   width: 20px;
   margin-right: 5px;
 }
 
 .img-right {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 2px;
   width: 20px;
 }
 
@@ -22,6 +30,7 @@
 }
 
 .button {
+  height: 20px;
   margin-right: 5px;
   color: white;
   border: none;
