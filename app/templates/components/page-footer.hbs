@@ -2,8 +2,13 @@
   <div local-class="container">
     <h3 local-class="text"> {{t "languages"}} </h3>
     <div local-class="image-container">
-      <img local-class="img-left" onclick={{action this.buttonSelected "left"}} src="images/gb.svg">
-      <img local-class="img-right" onclick={{action this.buttonSelected "right"}} src="images/ru.svg">
+      <AnimatedContainer local-class="animated-container">
+      {{#animated-if this.isCurrentLanguageEnUs use=this.toLeft}}
+        <img local-class="img-ru" onclick={{action (queue (action this.buttonSelected this.isCurrentLanguageEnUs) (action (mut this.isCurrentLanguageEnUs) (not this.isCurrentLanguageEnUs)) )}} src="images/ru.svg">
+      {{else}}
+        <img local-class="img-en" onclick={{action (queue (action this.buttonSelected this.isCurrentLanguageEnUs) (action (mut this.isCurrentLanguageEnUs) (not this.isCurrentLanguageEnUs)) )}} src="images/gb.svg">
+      {{/animated-if}}
+    </AnimatedContainer>
     </div>
   </div>
 </div>

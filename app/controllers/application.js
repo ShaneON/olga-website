@@ -64,13 +64,13 @@ export default Controller.extend({
   }, false),
 
   actions: {
-    changeLanguage(language) {
+    changeLanguage(isEnUs) {
       let locale;
-      if (language === "left") {
-        locale = "en-us";
+      if (isEnUs) {
+        locale = "ru-ru";
       }
       else {
-        locale = "ru-ru";
+        locale = "en-us";
       }
       return get(this, 'intl').set('locale', locale);
     }
