@@ -1,5 +1,5 @@
-<div local-class="{{header}}">
-  {{#if (eq header "header")}}
+<div local-class="{{this.header}}">
+  {{#if (eq this.header "header")}}
     <div local-class="header-content">
       <div local-class="placeholder">
         <img local-class="heading-img-8" src="images/stars.png">
@@ -34,15 +34,19 @@
   <div local-class="nav-bar">
     {{nav-item
       link="home"
-      name=(t "home")}}
+      name=(t "home")
+      id='1'}}
     {{nav-item
       link="teaching"
-      name=(t "teaching")}}
+      name=(t "teaching")
+      id='2'}}
     {{nav-item
       link="translation"
-      name=(t "translation")}}
+      name=(t "translation")
+      id='3'}}
     {{nav-item
       link="contact"
-      name=(t "contact")}}
+      name=(t "contact")
+      id='4'}}
   </div>
 </div>

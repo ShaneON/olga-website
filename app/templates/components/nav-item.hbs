@@ -1,5 +1,3 @@
-{{#link-to link
-  class=(local-class "item")
-  activeClass=(local-class "active")}}
-  {{name}}
-{{/link-to}}
+<LinkTo @route={{this.link}} id="nav-link-{{this.id}}" local-class="item">
+   {{this.name}}
+</LinkTo>
