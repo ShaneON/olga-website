@@ -7,10 +7,13 @@
 }
 
 .text {
+  display: flex;
+  justify-content: flex-end;
   color: white;
   font-size: 16px;
   font-weight: 300;
   letter-spacing: .8px;
+  width: 155px;
 }
 
 .img-en {
